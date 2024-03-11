@@ -11,6 +11,16 @@ Outwardly SONAR technique has exploited the discovery of rocks and minerals whic
 The dataset has been collected from UCI Repository. It has come across 61 features which define and differentiate Rocks and Mines and comprises of 209 samples. This data is used for training and testing purpose. The Last column in this dataset indicates that, whether it's a mine or a rock, which is useful in prediction. The dataset is included in this repository.
 
  Used many algorithms and came to know that KNN is giving me good result.
+
+ # Conclusion
+
+ Conducted data exploration, preprocessing and data visualization, including examination of data head, tail, description, and information to ensure data quality.
+
+Utilized pandas library to investigate data and handle missing values effectively.
+
+Split data into training and testing sets (80-20 split), applying various models including Linear Regression, K-Nearest Neighbors , Random Forest  and Stochastic Gradient Descent (SGD).
+
+Achieved highest accuracy of 88% with KNN model, outperforming other models, and successfully utilized it to predict whether a given sample is a mine or rock.
  
 ![image](https://github.com/Niharika-Bathula/Rock-vs-Mine-Prediction/assets/142409759/01bd39af-6ceb-449b-b0ac-18b12bceaa9f)
 
